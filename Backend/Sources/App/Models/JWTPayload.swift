@@ -1,7 +1,7 @@
 import JWT
 import Vapor
 
-struct UserPayload: JWTPayload {
+struct UserPayload: JWTPayload, Authenticatable {
     var userId: UUID
     var exp: ExpirationClaim
     
