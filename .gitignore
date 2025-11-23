@@ -1,0 +1,30 @@
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+*.xcuserstate
+*.xcuserdatad
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# Backend
+Backend/.build/
+Backend/db.sqlite
+Backend/db.sqlite-shm
+Backend/db.sqlite-wal
+
+# macOS
+.DS_Store
+
+# Secrets
+*.pem
+*.p12
