@@ -247,3 +247,4 @@ cd Backend && rm -rf .build && swift run
 *Production-ready • App Store compatible • Fully documented*
 
 **Version**: 1.0 | **Last Updated**: November 22, 2025
+# mvp-app-backend
