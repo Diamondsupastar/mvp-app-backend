@@ -1,0 +1,7 @@
+.build
+.swiftpm
+iOS
+Documentation
+*.md
+.git
+.gitignore
